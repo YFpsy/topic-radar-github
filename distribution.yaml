@@ -1,0 +1,8 @@
+name: topic-radar-agent
+version: 0.1.0
+description: "AI 内容选题研究助手：搜集、核验、去重并提出候选选题，最终由创作者决定"
+hermes_requires: ">=0.20.1"
+author: "YFpsy"
+distribution_owned:
+  - SOUL.md
+  - TOPIC_RADAR_CONFIG.example.md
