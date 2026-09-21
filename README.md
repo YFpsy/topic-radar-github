@@ -29,7 +29,7 @@
 ### 2. 一条命令安装
 
 ```bash
-hermes profile install github.com/YFpsy/topic-radar-agent --alias
+hermes profile install github.com/YFpsy/topic-radar-github --alias
 ```
 
 安装器会先显示 Profile 清单并请求确认。`--alias` 会创建同名命令，之后可以直接使用 `topic-radar-agent`。
