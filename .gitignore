@@ -1,0 +1,87 @@
+# Hermes credentials and secrets — never publish
+auth.json
+.env
+.env.*
+!.env.example
+.env.EXAMPLE
+*.pem
+*.key
+*credentials*
+*token*
+*secret*
+
+# Hermes runtime databases and state
+state.db
+state.db-shm
+state.db-wal
+hermes_state.db
+response_store.db
+response_store.db-shm
+response_store.db-wal
+gateway.pid
+gateway_state.json
+gateway*.log
+gateway*.lock
+processes.json
+auth.lock
+active_profile
+.update_check
+profile.yaml
+channel_directory.json
+feishu_seen_message_ids.json
+models_dev_cache.json
+verification_evidence.db*
+
+# User data
+memories/
+sessions/
+logs/
+plans/
+workspace/
+home/
+local/
+pending_messages/
+pairing/
+platforms/
+state/
+cron/*.db*
+cron/*.lock
+cron/ticker_*
+
+# Caches and generated artifacts
+image_cache/
+audio_cache/
+document_cache/
+browser_screenshots/
+cache/
+checkpoints/
+sandboxes/
+backups/
+errors.log
+.hermes_history
+
+# Infrastructure and dependencies
+hermes-agent/
+.worktrees/
+profiles/
+bin/
+node_modules/
+dist/
+.next/
+.vinext/
+.wrangler/
+
+# Private project material
+AI内容选题Agent/
+运行配置.md
+运行数据/
+.obsidian/
+.openai/
+mainland-mirror/
+
+# OS and archives
+*.zip
+*.tar.gz
+*.log
+.DS_Store
+Thumbs.db
